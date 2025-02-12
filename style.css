@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+body{
+    background-color:white;
+    color:black;
+    box-sizing: border-box;/* Esto va a ayudar a que el border y el padding se incluyan dentro del ancho y alto de definidos para un elmento dentro del diseño de la pagina we, haciendo mas facil sus demnsiones*/
+}
+
+.presentacion{
+    display: flex;
+    align-items:center;
+    padding: 6% 15%;
+    justify-content: center;
+    
+    
+}
+
+.presentacion__contenido{
+    width: 25%;
+    display:flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.presentacion__nombre{
+    font-family: "Krona One", sans serif;
+    font-size: 50 px;
+
+}
+
+.presentacion__contenido__subtitulo{
+    font-family: "Montserrat", sans-serif;
+    color:blue;
+    font-size: 25px;
+}
+
+.presentacion__contenido__parrafo{
+    font-family: "Montserrat", sans serif;
+    font-size: 14px;
+}
+
+.container{
+    display:flex;
+    flex-direction: column;
+    order:1;
+    text-align:left;/*alinea el texto a la izquierda*/
+    align-items:flex-start;/*Alinea los elementos flexibles al iniciio(izquierda)*/
+}
